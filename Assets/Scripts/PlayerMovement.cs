@@ -23,9 +23,9 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection.Normalize();
 
-        rb.velocity = new Vector3(
+        rb.linearVelocity = new Vector3(
             moveDirection.x * speed,
-            rb.velocity.y,
+            rb.linearVelocity.y,
             moveDirection.z * speed
         );
     }

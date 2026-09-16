@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LookAt : MonoBehaviour
+public class LookAtExemple : MonoBehaviour
 {
     public Transform target;
     // Start is called before the first frame update

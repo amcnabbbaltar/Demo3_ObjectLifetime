@@ -9,6 +9,7 @@ public class SimpleSpawner : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
+            
             Instantiate(prefabToSpawn, spawnPoint.position, spawnPoint.rotation);
         }
     }
